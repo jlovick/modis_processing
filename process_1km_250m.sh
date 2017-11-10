@@ -25,24 +25,3 @@ do
 	echo "fi" >> run_swathgrid_1_processor.sh
 
 done
-
-#split -n l/5 run_swathgrid_1_processor.sh rsp
-#mv rspaa ../rsp1.sh
-#mv rspab ../rsp2.sh
-#mv rspac ../rsp3.sh
-#mv rspad ../rsp4.sh
-#mv rspae ../rsp5.sh
-#rm ./run_swathgrid_1_processor.sh
-mv ./run_swathgrid_1_processor.sh ../make_geotifs.sh 
-#if [ -e ../make_geotifs.sh ]
-#	then
-#	rm ../make_geotifs.sh
-#	fi
-
-#for file in `ls ../rsp?.sh | rev | cut -d "/" -f 1 | rev`
-#	do
-#	echo "bash $file &" >> ../make_geotifs.sh
-#	done
-
-#chmod a+x ../make_geotifs.sh
-
